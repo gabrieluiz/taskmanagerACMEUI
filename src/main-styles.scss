@@ -1,0 +1,29 @@
+// global variables
+$blue: #7f9ad3;
+$green: #2d8850dc;
+$light-green: #c0fadd;
+$light:#eeebeb;
+$family-sans-serif: "Nunito", sans-serif;
+$primary: $green;
+$link: $light-green;
+
+//componet variables
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// global styles
+html {
+  background: linear-gradient(to right top,$blue,$green );
+}
+html,body {
+  height: 100%;
+}
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
